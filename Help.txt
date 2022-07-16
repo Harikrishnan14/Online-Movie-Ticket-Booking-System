@@ -1,0 +1,8 @@
+Colour Codes
+
+Red : #ff0000
+Black: #000000
+Text: #607d8b
+
+
+Icons : https://www.flaticon.com/
