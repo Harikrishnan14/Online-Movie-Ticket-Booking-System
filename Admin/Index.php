@@ -12,7 +12,7 @@
     <body>
         <section>
             <div class="ImageBox">
-                <img src="Images/Left.jpg">
+                <img src="Images\Left.jpg">
             </div>
             <div class="ContentBox">
                 <div class="FormBox">
