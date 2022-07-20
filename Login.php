@@ -36,7 +36,7 @@
                             <p>Don't have an account? <a href="Signup.php">Sign Up</a></p>
                         </div>
                     </form>
-                    <h3>Login with social media</h3>
+                    <h3>Login with social media.</h3>
                     <ul class="Social">
                         <li><img src="Images\Icons\google.png"></li>
                         <li><img src="Images\Icons\facebook.png"></li>
