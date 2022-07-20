@@ -1,0 +1,432 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: rgb(255, 255, 255);
+}
+*
+{
+    box-sizing: border-box;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    background-color: #ff0000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.logo img
+{
+    height: 35px;
+}
+nav .menu
+{
+    display: flex;
+}
+nav .menu li a
+{
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000000;
+    letter-spacing: 1px;
+}
+.search
+{
+    width: 250px;
+    height: 40px;
+    background-color: rgba(245, 245, 245, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+.search input
+{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.search i
+{
+    color: #3a3a3a;
+}
+nav .menu li a:hover
+{
+    background-color: #ff5151;
+    color: #ffffff;
+    box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
+    transition: all ease 0.2s;
+}
+#main
+{
+    padding-top: 80px;
+    background-color: #ffffff;
+}
+.showcaseBox
+{
+    width: 430px;
+    height: 250px;
+    box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 0px 20px 10px 20px;
+    overflow: hidden;
+}
+.showcaseBox img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.showcaseHeading
+{
+    padding-left: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #1a1a1a;
+}
+.cs-hidden
+{
+    overflow: visible !important;
+}
+#latest
+{
+    border-top: 1px solid rgba(53,53,53,0.1);
+}
+.LatestHeading
+{
+    margin: 30px 30px 0px 30px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.LatestBox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    margin: 20px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    background-color: #ffffff;
+}
+.LatestBImg
+{
+    width: 100%;
+    height: 270px;
+}
+.LatestBImg img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.LatestBText strong
+{
+    color: #3a3a3a;
+    margin: 0px;
+}
+.LatestBText
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.LatestBText p
+{
+    color: #607d8b;
+    margin: 0px;
+}
+.MoviesHeading h2
+{
+    font-weight: 400;
+    margin: 0px;
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.01);
+    border: rgba(0, 0, 0, 0.06);
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.MoviesHeading
+{
+    display: flex;
+    margin: 0px 2%;
+}
+.MoviesBox
+{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    border-top: 3px solid #292929;
+}
+.MoviesImg
+{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.MoviesImg img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.MoviesBox a
+{
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    display: -webkit-box;
+    max-width: 80%;
+    -webkit-line-clamp: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #3a3a3a;
+    margin: 20px;
+}
+.MoviesBox:hover
+{
+    transform: translateY(-10px);
+    transition: all ease 0.2s;
+}
+#MoviesList
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.quality
+{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 5px 20px;
+    font-weight: 500;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons a
+{
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #ff5151;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.buttons a:hover
+{
+    background-color: #ff0000;
+}
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+footer p
+{
+    color: #607d8b;
+    margin: 10px 0px;
+    font-size: 0.9rem;
+}
+nav .MenuButton
+{
+    display: none;
+}
+
+@media(max-width:1100px)
+{
+    nav
+    {
+        justify-content: space-between;
+        height: 70px;
+        padding: 0px 10px;
+    }
+    nav .menu
+    {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        background: #fff;
+        border-bottom: 4px solid #242424;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .menu li
+    {
+        width: 100%;
+    }
+    nav .menu li a
+    {
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        margin: 0px;
+        padding: 25px;
+        border: 1px solid rgba(38,38,38,0.03);
+    }
+    nav .MenuIcon
+    {
+        cursor: pointer;
+        float: right;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+        display: block;
+    }
+    nav .MenuIcon .NavIcon
+    {
+        background-color: #333333;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background 0,2s ease-out;
+        width: 18px;
+    }
+    nav .MenuIcon .NavIcon:before, nav .MenuIcon .NavIcon:after
+    {
+        background-color: #333333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all ease-out 0.2s;
+        width: 100%;
+    }
+    nav .MenuIcon .NavIcon:before
+    {
+        top: 5px;
+    }
+    nav .MenuIcon .NavIcon:after
+    {
+        top: -5px;
+    }
+    nav .MenuButton:checked ~ .MenuIcon .NavIcon
+    {
+        background-color: transparent;
+    }
+    nav .MenuButton:checked ~ .MenuIcon .NavIcon:before
+    {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    nav .MenuButton:checked ~ .MenuIcon .NavIcon:after
+    {
+        transform: rotate(45deg);
+        top: 0;
+    }
+    nav .MenuButton
+    {
+        display: none;
+    }
+    nav .MenuButton:checked ~ .menu
+    {
+        display: block;
+    }
+}
+@media(max-width:680px)
+{
+    .showcaseBox
+    {
+        max-width: 300px;
+        height: 180px;
+        margin: 10px;
+    }
+    .LatestBox
+    {
+        width: 190px;
+        margin: 20px 5px;
+    }
+    .MoviesBox
+    {
+        flex-direction: row;
+        width: 90%;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .MoviesBox a
+    {
+        width: 65%;
+    }
+    footer
+    {
+        justify-content: space-between;
+        padding: 0px 20px;
+        text-align: center;
+    }
+}
+@media(max-width:440px)
+{
+    .MoviesBox a, .MoviesBox
+    {
+        width: 100%;
+    }
+    .MoviesBox
+    {
+        flex-direction: column;
+    }
+    .logo img
+    {
+        height: 30px;
+    }
+    .search
+    {
+        width: 90%;
+    }
+}
