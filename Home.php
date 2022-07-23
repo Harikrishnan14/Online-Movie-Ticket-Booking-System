@@ -26,8 +26,7 @@
             <ul class="menu">
                 <li><a href="Home.php">Home</a></li>
                 <li><a href="Login.php">Login</a></li>
-                <li><a href="Admin\Index.php">Admin Login</a></li>
-                <li><a href="Theater\Index.php">Theater Login</a></li>
+                <li><a href="Logout.php">Logout</a></li>
             </ul>
             <div class="search">
                 <input type="text" placeholder="Search for movies">

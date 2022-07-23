@@ -16,8 +16,16 @@
           
         if($count == 1)
         {  
-            echo "<h1><center> Login successful </center></h1>";  
-            header("location:Home.php");
+            if(isset($_POST['RememberMe']))
+            {
+                setcookie('PNumbercookie',$PNumber,time()+86400);
+                setcookie('Passcookie',$Pass,time()+86400);
+                header("location:Home.php");
+            }
+            else
+            {
+                header("location:Home.php");
+            }
         }  
         else
         {  
