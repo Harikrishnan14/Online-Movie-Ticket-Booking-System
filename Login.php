@@ -33,6 +33,9 @@
                             <input type="submit" value="Sign in" name="">
                         </div>
                         <div class="InputBox">
+                            <p>Forgotten Password? <a href="Fpassword.php">Click Here</a></p>
+                        </div>
+                        <div class="InputBox">
                             <p>Don't have an account? <a href="Signup.php">Sign Up</a></p>
                         </div>
                     </form>

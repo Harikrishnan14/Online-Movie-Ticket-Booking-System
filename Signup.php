@@ -39,6 +39,10 @@
                             <input type="Password" name="Password">
                         </div>
                         <div class="InputBox">
+                            <span>Confirm Password</span>
+                            <input type="Password" name="CPassword">
+                        </div>
+                        <div class="InputBox">
                             <input type="submit" value="Sign Up" name="">
                         </div>
                         <div class="InputBox">
