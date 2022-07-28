@@ -5,8 +5,9 @@ $conn = mysqli_connect("localhost", "root", "","ticketbooking");
 if(isset($_POST['submit']))
 {
     $Email = $_POST['Email'];
-
+    
     $sql = "SELECT * FROM users WHERE Email='$Email'";
+    $toemail= "$Email";
     $query = mysqli_query($conn,$sql);
 
     $emailcount = mysqli_num_rows($query);
@@ -20,9 +21,9 @@ if(isset($_POST['submit']))
         $subject = "Password Reset";
         $body = "Hi, $firstname. Click hare to reset your password http://localhost/Project/Rpassword.php";
 
-        $sender_email = "From : emailtester165@gmail.com";
-
-        if(mail($Email, $subject, $body, $sender_email))
+        $sender_email = "From: emailtester165@gmail.com";
+        
+        if(mail($toemail, $subject, $body, $sender_email))
         {
             $_SESSION['msg'] = "Check your mail to reset your password $Email";
             header('location:Login.php');
@@ -30,6 +31,7 @@ if(isset($_POST['submit']))
         else
         {
             echo "Email sending failed...";
+          
         }
     }
 }
