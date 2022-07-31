@@ -25,7 +25,7 @@
             </label>
             <ul class="menu">
                 <li><a href="Home.php">Home</a></li>
-                <li><a href="Login.php">Login</a></li>
+                <li><a href="UserDash.php">Dashboard</a></li>
                 <li><a href="Logout.php">Logout</a></li>
             </ul>
             <div class="search">
@@ -88,7 +88,7 @@
                 <li class="item-a">
                     <div class="LatestBox">
                         <div class="LatestBImg">
-                            <img src="Images\StarWars.jpg">
+                            <img src="Images\Spiderman.webp">
                         </div>
                         <div class="LatestBText">
                             <strong>//MovieName//</strong>
@@ -110,7 +110,7 @@
                 <li class="item-a">
                     <div class="LatestBox">
                         <div class="LatestBImg">
-                            <img src="Images\StarWars.jpg">
+                            <img src="Images\Aladdin.jpg">
                         </div>
                         <div class="LatestBText">
                             <strong>//MovieName//</strong>
@@ -121,7 +121,7 @@
                 <li class="item-a">
                     <div class="LatestBox">
                         <div class="LatestBImg">
-                            <img src="Images\StarWars.jpg">
+                            <img src="Images\BabyDriver.webp">
                         </div>
                         <div class="LatestBText">
                             <strong>//MovieName//</strong>
@@ -132,7 +132,7 @@
                 <li class="item-a">
                     <div class="LatestBox">
                         <div class="LatestBImg">
-                            <img src="Images\StarWars.jpg">
+                            <img src="Images\Joker.webp">
                         </div>
                         <div class="LatestBText">
                             <strong>//MovieName//</strong>

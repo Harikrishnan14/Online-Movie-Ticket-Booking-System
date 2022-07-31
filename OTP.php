@@ -1,13 +1,13 @@
 <?php
-    include("Connection.php");
+    include('Connection.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Recover Account</title>
-        <link rel="stylesheet" href="Signup.css">
+        <title>Payment Window</title>
+        <link rel="stylesheet" href="OTP.css">
     </head>
     <body>
         <section>
@@ -16,17 +16,14 @@
             </div>
             <div class="ContentBox">
                 <div class="FormBox">
-                    <h2>Recover</h2>
-                    <form name ="Form2" action ="FpasswordBack.php" method ="POST">
+                    <h2>Payment</h2>
+                    <form name ="Form1" action ="PaymentBack.php" method ="POST">
                         <div class="InputBox">
-                            <span>Email</span>
-                            <input type="text" name="Email">
+                            <span>Enter OTP</span>
+                            <input type="text" name="OTP">
                         </div>
                         <div class="InputBox">
-                            <input type="submit" value="Send Mail" name="submit">
-                        </div>
-                        <div class="InputBox">
-                            <p>Already an user? <a href="Index.php">Login</a></p>
+                            <input type="submit" value="Confirm" name="">
                         </div>
                     </form>
                 </div>

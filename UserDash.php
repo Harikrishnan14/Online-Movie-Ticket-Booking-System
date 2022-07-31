@@ -6,10 +6,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
-        <title>Theater Dashboard</title>
+        <title>User Dashboard</title>
         <script src="https://kit.fontawesome.com/2acdbe564a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-        <link rel="stylesheet" href="TheaterDash.css">
+        <link rel="stylesheet" href="UserDash.css">
     </head>
     <body>
         <input type="checkbox" id="NavToggle">
@@ -20,20 +20,20 @@
             <div class="SidebarMenu">
                 <ul>
                     <li>
-                        <a href="TheaterDash.php" class="Active"><span class="fa-solid fa-house"></span>
+                        <a href="AdminDash.php" class="Active"><span class="fa-solid fa-house"></span>
                         <span>Home</span></a>
                     </li>
                     <li>
-                        <a href="AddMovies.php" class="AddMovies"><span class="fa-solid fa-circle-plus"></span>
-                        <span>Add movies</span></a>
+                        <a href="Bookings.php" class="Bookings"><span class="fa-solid fa-ticket"></span>
+                        <span>See Bookings</span></a>
                     </li>
                     <li>
-                        <a href="AddShows.php" class="AddShows"><span class="fa-solid fa-calendar-plus"></span>
-                        <span>Add Shows</span></a>
+                        <a href="CUsername.php" class="CUsername"><span class="fa-solid fa-user-tag"></span>
+                        <span>Change Username</span></a>
                     </li>
                     <li>
-                        <a href="AddScreen.php" class="AddScreen"><span class="fa-solid fa-plus"></span>
-                        <span>Add Screen</span></a>
+                        <a href="CPassword.php" class="CPassword"><span class="fa-solid fa-user-pen"></span>
+                        <span>Change Password</span></a>
                     </li>
                 </ul>
             </div>
@@ -45,19 +45,19 @@
                     <label for="NavToggle">
                         <span class="las la-bars"></span>
                     </label>
-                    Theater Dashboard
+                    Dashboard
                 </h2>
                 <div class="Admin">
                     <img src="Images\Admin2.jpg" width="40px" height="40px" alt="">
-                    <h4>//Theater Name//</h4>
+                    <h4>User</h4>
                 </div>
             </header>
             <main>
                 <div class="Cards">
                     <div class="CardSingle">
                         <div>
-                            <h1>54</h1>
-                            <span>Customers</span>
+                            <h1>Text1</h1>
+                            <span>Text2</span>
                         </div>
                         <div>
                             <span class="las la-users"></span>
@@ -65,19 +65,16 @@
                     </div>
                     <div class="CardSingle">
                         <div>
-                            <h1>₹5K</h1>
-                            <span>Total Earnings</span>
+                            <h1>Text3</h1>
+                            <span>Text4</span>
                         </div>
                         <div>
                             <span class="las la-clipboard-list"></span>
                         </div>
                     </div>
                 </div>
-
+                
             </main>
         </div>
     </body>
 </html>
-
-
-<i class="fa-solid fa-layer-plus"></i>

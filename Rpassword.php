@@ -41,7 +41,7 @@
                             <input type="submit" value="Update Password" name="submit">
                         </div>
                         <div class="InputBox">
-                            <p>Already an user? <a href="Login.php">Login</a></p>
+                            <p>Already an user? <a href="Index.php">Login</a></p>
                         </div>
                     </form>
                 </div>

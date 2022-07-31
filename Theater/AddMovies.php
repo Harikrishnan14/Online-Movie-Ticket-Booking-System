@@ -49,7 +49,7 @@
                 </h2>
                 <div class="Admin">
                     <img src="Images\Admin2.jpg" width="40px" height="40px" alt="">
-                    <h4>Admin</h4>
+                    <h4>//Theater Name//</h4>
                 </div>
             </header>
             <main>
